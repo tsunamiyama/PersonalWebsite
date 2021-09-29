@@ -314,8 +314,8 @@ hr {
   padding: 50px 0px 33px 33px;
   color: #fff;
   background: black;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(57%, black), color-stop(100%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
-  background: linear-gradient(180deg, black 57%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(75%, black), color-stop(100%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(180deg, black 75%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
