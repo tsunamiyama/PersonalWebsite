@@ -474,4 +474,20 @@ hr {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+.contact-form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-form label textarea, .contact-form label input {
+  margin-left: 10px;
+}
 /*# sourceMappingURL=main.css.map */
