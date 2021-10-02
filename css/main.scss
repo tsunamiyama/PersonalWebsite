@@ -48,10 +48,6 @@ $accent-color-main: #fff;
         }
     }
 
-    .nav-social{
-        display: none;
-    }
-
     hr{
         display:block;
         border:none;
@@ -162,6 +158,10 @@ $accent-color-main: #fff;
             justify-content: center;
             height: 360px;
             margin: auto;
+        }
+
+        .pnc-bigpics{
+            display: none;
         }
     }
 
@@ -360,7 +360,7 @@ $accent-color-main: #fff;
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
     body{
         background-color: $background-color;
         margin: 0;
@@ -405,9 +405,6 @@ $accent-color-main: #fff;
                 padding: 0 2em;
             }
         }
-    }
-    .nav-social{
-        display: none;
     }
     hr{
         display:block;
@@ -487,7 +484,7 @@ $accent-color-main: #fff;
             align-items: center;
             color: #0AFFF7;
             font-weight: 400;
-            font-size: 12px;
+            font-size: 16px;
             letter-spacing: 5px;
             margin: 0 0 0 0;
         }
@@ -497,7 +494,7 @@ $accent-color-main: #fff;
             justify-content: center;
             align-items: center;
             color: white;
-            font-size: 20px;
+            font-size: 24px;
             font-weight: 400;
             margin: 0;
         }
@@ -507,7 +504,7 @@ $accent-color-main: #fff;
             justify-content: center;
             align-items: center;
             color: #fff;
-            font-size: 14px;
+            font-size: 18px;
             font-weight: 200;
             text-align: center;
             margin: 1em 1em 2em 1em;
@@ -519,6 +516,10 @@ $accent-color-main: #fff;
             justify-content: center;
             width: 75%;
             margin: auto;
+        }
+
+        .pnc-bigpics{
+            display: none;
         }
     }
     .projects{
@@ -536,7 +537,7 @@ $accent-color-main: #fff;
             align-items: center;
             color: #0AFFF7;
             font-weight: 400;
-            font-size: 12px;
+            font-size: 18px;
             letter-spacing: 5px;
             margin: 0;
         }
@@ -710,6 +711,177 @@ $accent-color-main: #fff;
             textarea, input{
                 margin-left: 10px;
             }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px){
+    body{
+        background-color: $background-color;
+        margin: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+    a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Poppins', 'arial';
+        width: 100%;
+
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Poppins', 'arial';
+            font-size: 32px;
+            font-weight: 200;
+            color: $accent-color-main;
+            height: 2.5em;
+            letter-spacing: 2.5px;
+            margin-left: 1.75em;
+            line-height: 30px;
+        }
+        .nav-buttons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $accent-color-main;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            font-weight: 200;
+            height: fit-content;
+            font-size: 28px;
+
+            li{
+                padding: 0 2em;
+            }
+        }
+    }
+    hr{
+        display:block;
+        border:none;
+        color:$accent-color-main;
+        height:1px;
+        background:$background-color;
+        background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 3000, from($accent-color-main), to($background-color));
+        margin: 0;
+    }
+    .hero{
+        display: block;
+        color: $accent-color-main;
+        padding:  4em 4em 0em 4em;
+        font-family: 'Poppins', 'arial';
+        margin-top: 7em;
+
+        #hero-headline{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 130px;
+            font-weight: 200;
+        }
+        #hero-second-headline{
+            display: block;
+
+            p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 48px;
+                font-weight: 200;
+                margin: 0;
+            }
+
+            #hero-beaut{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                font-family: 'Pacifico', arial;
+                font-size: 50px;
+                color: #0AFFF7;
+            }
+        }
+    }
+    .hero-art{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12em;
+        margin-bottom: 9em;
+
+        #Line_3, #Line_4{
+            transition-duration: 0.7s;
+        }
+
+        #Line_3-2, #Line_4-2{
+            transition-delay: 0.35s;
+            transition-duration: 0.7s;
+        }
+
+        #Line_3-3, #Line_4-3{
+            transition-delay: 0.7s;
+            transition-duration: 0.7s;
+        }
+    }
+    .featured-project{
+        margin-top: 7.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Poppins', arial;
+
+        .fp-group1{
+            display: block;
+        
+            #featured-project-label{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #0AFFF7;
+                font-weight: 400;
+                font-size: 28px;
+                letter-spacing: 5px;
+                margin: 0 0 0 0;
+            }
+    
+            #featured-project-title{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 24px;
+                font-weight: 400;
+                margin: 0;
+            }
+    
+            p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 200;
+                text-align: center;
+                margin: 1em 1em 2em 1em;
+            }
+        }
+
+        #pnc-pic{
+            display: none;
+        }
+
+        .pnc-bigpics{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
         }
     }
 }
