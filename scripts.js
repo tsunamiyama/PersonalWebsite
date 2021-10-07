@@ -6,7 +6,7 @@ function changeArrowColor() {
     var line7 = document.getElementById("Line_3-3");
     var line8 = document.getElementById("Line_4-3");
 
-    if(line3.style.stroke == "rgb(255, 255, 255)"){
+    if(line3.style.stroke == "rgb(187, 188, 188)"){
         line3.style.stroke = "#000";
         line4.style.stroke = "#000";
         line5.style.stroke = "#000";
@@ -14,16 +14,13 @@ function changeArrowColor() {
         line7.style.stroke = "#000";
         line8.style.stroke = "#000";
     } else{
-        line3.style.stroke = "#fff";
-        line4.style.stroke = "#fff";
-        line5.style.stroke = "#fff";
-        line6.style.stroke = "#fff";
-        line7.style.stroke = "#fff";
-        line8.style.stroke = "#fff";
+        line3.style.stroke = "#bbbcbc";
+        line4.style.stroke = "#bbbcbc";
+        line5.style.stroke = "#bbbcbc";
+        line6.style.stroke = "#bbbcbc";
+        line7.style.stroke = "#bbbcbc";
+        line8.style.stroke = "#bbbcbc";
     }
-    
-
 }
 
 setInterval(function () {changeArrowColor();}, 2000);
-
