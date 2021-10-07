@@ -4,6 +4,7 @@
 
 $background-color: #bbbcbc;
 $accent-color-main: #000;
+$label-color: #7df9ff;
 
 @media only screen and (max-width: 600px) {
     body{
@@ -809,7 +810,7 @@ $accent-color-main: #000;
                     margin: 0;
                     font-family: 'Pacifico', arial;
                     font-size: 30px;
-                    color: #7DF9FF;
+                    color: $label-color;
                 }
             }
         }
@@ -852,7 +853,6 @@ $accent-color-main: #000;
         #pillars-1{
             grid-column: 3 / span 1;
             grid-row: 2 / span 1;
-            box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.5);
             animation-duration: 10s;
             animation-iteration-count: infinite;
             animation-name: pillarsUp;
@@ -861,7 +861,6 @@ $accent-color-main: #000;
         #pillars-2{
             grid-column: 20 / span 2;
             grid-row: 3 / span 3;
-            box-shadow: inset 0px 5px 10px 5px rgba(0,0,0,0.5);
             animation-duration: 10s;
             animation-name: pillarsDown;
             animation-iteration-count: infinite;
@@ -871,7 +870,6 @@ $accent-color-main: #000;
         #pillars-3{
             grid-column: 21 / span 1;
             grid-row: 7 / span 1;
-            box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.5);
             animation-duration: 10s;
             animation-name: pillarsUp;
             animation-iteration-count: infinite;
@@ -881,7 +879,6 @@ $accent-color-main: #000;
         #pillars-4{
             grid-column: 19 / span 1;
             grid-row: 6 / span 1;
-            box-shadow: inset 0px 5px 10px 5px rgba(0,0,0,0.5);
             animation-duration: 10s;
             animation-name: pillarsDown;
             animation-iteration-count: infinite;
@@ -890,7 +887,6 @@ $accent-color-main: #000;
         #pillars-5{
             grid-column: 15 / span 1;
             grid-row: 3 / span 1;
-            box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.5);
             animation-duration: 10s;
             animation-name: pillarsUp;
             animation-iteration-count: infinite;
@@ -900,7 +896,6 @@ $accent-color-main: #000;
         #pillars-6{
             grid-column: 16 / span 3;
             grid-row: 10 / span 3;
-            box-shadow: inset 0px 5px 10px 5px rgba(0,0,0,0.5);
             animation-duration: 10s;
             animation-name: pillarsDown;
             animation-iteration-count: infinite;
@@ -910,7 +905,6 @@ $accent-color-main: #000;
         #pillars-7{
             grid-column: 9 / span 1;
             grid-row: 4 / span 1;
-            box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.5);
             animation-duration: 10s;
             animation-name: pillarsUp;
             animation-iteration-count: infinite;
@@ -920,7 +914,6 @@ $accent-color-main: #000;
         #pillars-8{
             grid-column: 25 / span 1;
             grid-row: 12 / span 1;
-            box-shadow: inset 0px 5px 10px 5px rgba(0,0,0,0.5);
             animation-duration: 10s;
             animation-name: pillarsDown;
             animation-iteration-count: infinite;
@@ -929,7 +922,6 @@ $accent-color-main: #000;
         #pillars-9{
             grid-column: 3 / span 1;
             grid-row: 10 / span 3;
-            box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.5);
             animation-duration: 10s;
             animation-name: pillarsUp;
             animation-iteration-count: infinite;
@@ -939,26 +931,10 @@ $accent-color-main: #000;
         #pillars-10{
             grid-column: 2 / span 1;
             grid-row: 5 / span 1;
-            box-shadow: inset 0px 5px 10px 5px rgba(0,0,0,0.5);
             animation-duration: 10s;
             animation-name: pillarsDown;
             animation-iteration-count: infinite;
             animation-delay: 1s;
-        }
-
-        #col1{
-            grid-column: 1 / 2;
-            grid-row: 1 / span 13;
-        }
-
-        #col2{
-            grid-column: 3 / 4;
-            grid-row: 1 / span 13;
-        }
-
-        #col3{
-            grid-column: 5 / 6;
-            grid-row: 1 / span 13;
         }
 
         #col4{
@@ -972,31 +948,6 @@ $accent-color-main: #000;
             animation-iteration-count: infinite;
         }
 
-        #col5{
-            grid-column: 9 / 10;
-            grid-row: 1 / span 13;
-        }
-
-        #col6{
-            grid-column: 11 / 12;
-            grid-row: 1 / span 13;
-        }
-
-        #col7{
-            grid-column: 13 / 14;
-            grid-row: 1 / span 13;
-        }
-
-        #col8{
-            grid-column: 15 / 16;
-            grid-row: 1 / span 13;
-        }
-
-        #col9{
-            grid-column: 17 / 18;
-            grid-row: 1 / span 13;
-        }
-
         #col10{
             grid-column: 19 / 20;
             grid-row: 1 / span 13;
@@ -1006,26 +957,6 @@ $accent-color-main: #000;
             animation-fill-mode: forwards;
             animation-delay: 8s;
             animation-iteration-count: infinite;
-        }
-
-        #col11{
-            grid-column: 21 / 22;
-            grid-row: 1 / span 13;
-        }
-
-        #col12{
-            grid-column: 23 / 24;
-            grid-row: 1 / span 13;
-        }
-
-        #col13{
-            grid-column: 25 / 26;
-            grid-row: 1 / span 13;
-        }
-
-        #row1{
-            grid-column: 1 / span 25;
-            grid-row: 1 / 2 ;
         }
 
         #row2{
@@ -1039,22 +970,6 @@ $accent-color-main: #000;
             animation-iteration-count: infinite;
         }
 
-        #row3{
-            grid-column: 1 / span 25;
-            grid-row: 5 / 6;
-            z-index: -1;
-        }
-
-        #row4{
-            grid-column: 1 / span 25;
-            grid-row: 7 / 8;
-        }
-        
-        #row5{
-            grid-column: 1 / span 25;
-            grid-row: 9 / 10;
-        }
-
         #row6{
             grid-column: 1 / span 25;
             grid-row: 11 / 12 ;
@@ -1062,72 +977,59 @@ $accent-color-main: #000;
             width: 110%;
             animation: reverseRow 5s;
             animation-fill-mode: forwards;
-            animation-delay: 3s;
+            animation-delay: 6.5s;
             animation-iteration-count: infinite;
         }
 
-        #row7{
-            grid-column: 1 / span 25;
-            grid-row: 13 / 14;
-        }
-        
         @keyframes pillarsUp {
-            0%{
-                box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.5);
-            }
-
             25%{
-                box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
-            }
-
-            26%{
-                box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.5);
+                box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.5);
             }
 
             50%{
-                box-shadow: inset 0px 5px 10px 5px rgba(0,0,0,0.5);
-            }
-
-            75%{
-                box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.5);
-            }
-
-            76%{
                 box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
             }
 
+            51%{
+                box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.5);
+            }
+
+            75%{
+                box-shadow: inset 0px 5px 10px 5px rgba(0,0,0,0.5);
+            }
+
+            99%{
+                box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.5);
+            }
+
             100%{
-                box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.5);
+                box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
             }
         }
 
         @keyframes pillarsDown {
-            0%{
-                box-shadow: inset 0px 5px 10px 5px rgba(0,0,0,0.5);
-            }
-
             25%{
-                box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.5);
-            }
-
-            26%{
-                box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
+                box-shadow: inset 0px 5px 10px 5px rgba(0,0,0,0.5);
             }
 
             50%{
-                box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.5);
-            }
-
-            75%{
-                box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
-            }
-
-            76%{
                 box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.5);
             }
 
+            51%{
+                box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
+            }
+
+            75%{
+                box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.5);
+            }
+
+            99%{
+                box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
+            }
+
             100%{
-                box-shadow: inset 0px 5px 10px 5px rgba(0,0,0,0.5);
+                box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.5);
             }
         }
 
@@ -1210,7 +1112,7 @@ $accent-color-main: #000;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                color: #0AFFF7;
+                color: $label-color;
                 font-weight: 400;
                 font-size: 28px;
                 letter-spacing: 5px;
@@ -1221,7 +1123,7 @@ $accent-color-main: #000;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                color: white;
+                color: #000;
                 font-size: 32px;
                 font-weight: 400;
                 margin: 0;
@@ -1231,6 +1133,8 @@ $accent-color-main: #000;
                 margin-left: 10%;
                 margin-right: 10%;
                 font-size: 24px;
+                font-weight: 300;
+                color: #000;
             }
         }
 
@@ -1249,7 +1153,7 @@ $accent-color-main: #000;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 30em;
+                width: 20em;
                 margin: 0% 1% 0% 1%;
             }
         }
@@ -1272,7 +1176,7 @@ $accent-color-main: #000;
             display: flex;
             justify-content: center;
             align-items: center;
-            color: #0AFFF7;
+            color: $label-color;
             font-weight: 400;
             font-size: 28px;
             letter-spacing: 5px;
@@ -1286,7 +1190,7 @@ $accent-color-main: #000;
             flex-direction: column;
             overflow: hidden;
             width: 555px;
-            height: 867px;
+            height: 767px;
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.12), 0 1px 2px rgba(255, 255, 255, 0.856);
@@ -1326,7 +1230,7 @@ $accent-color-main: #000;
                 width: 100%;
             }
 
-            #wsc-name{
+            #wsc-name, #mjc-name{
                 font-size: 34px;
                 color:#fff
             }
@@ -1338,14 +1242,14 @@ $accent-color-main: #000;
 
             figcaption{
                 position: absolute;
-                bottom: -50%;
+                bottom: -47%;
                 left: 0;
                 width: 100%;
                 margin: 0;
                 background-color: rgba(black, 0.85);
                 color: white;
                 transition: 0.25s;
-                font-size: 24px;
+                font-size: 18px;
             }
 
             .project-desc{
@@ -1418,6 +1322,7 @@ $accent-color-main: #000;
                 background-color: #f5fffa;
                 overflow: hidden;
                 margin: 1em 1em 1em 1em;
+                box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.5);
             }
 
             p {
