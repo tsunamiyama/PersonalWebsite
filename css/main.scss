@@ -856,6 +856,7 @@ $label-color: #7df9ff;
             animation-duration: 10s;
             animation-iteration-count: infinite;
             animation-name: pillarsUp;
+            animation-delay: 0.5s;
         }
 
         #pillars-2{
@@ -864,7 +865,7 @@ $label-color: #7df9ff;
             animation-duration: 10s;
             animation-name: pillarsDown;
             animation-iteration-count: infinite;
-            animation-delay: 2s;
+            animation-delay: 4s;
         }
 
         #pillars-3{
@@ -873,7 +874,7 @@ $label-color: #7df9ff;
             animation-duration: 10s;
             animation-name: pillarsUp;
             animation-iteration-count: infinite;
-            animation-delay: 1s;
+            animation-delay: 4s;
         }
 
         #pillars-4{
@@ -882,6 +883,7 @@ $label-color: #7df9ff;
             animation-duration: 10s;
             animation-name: pillarsDown;
             animation-iteration-count: infinite;
+            animation-delay: 3.5s;
         }
 
         #pillars-5{
@@ -890,7 +892,7 @@ $label-color: #7df9ff;
             animation-duration: 10s;
             animation-name: pillarsUp;
             animation-iteration-count: infinite;
-            animation-delay: 3s;
+            animation-delay: 2.5s;
         }
 
         #pillars-6{
@@ -908,7 +910,7 @@ $label-color: #7df9ff;
             animation-duration: 10s;
             animation-name: pillarsUp;
             animation-iteration-count: infinite;
-            animation-delay: 2s;
+            animation-delay: 1.5s;
         }
 
         #pillars-8{
@@ -917,6 +919,7 @@ $label-color: #7df9ff;
             animation-duration: 10s;
             animation-name: pillarsDown;
             animation-iteration-count: infinite;
+            animation-delay: 4.5s;
         }
 
         #pillars-9{
@@ -925,7 +928,7 @@ $label-color: #7df9ff;
             animation-duration: 10s;
             animation-name: pillarsUp;
             animation-iteration-count: infinite;
-            animation-delay: 2s;
+            animation-delay: 0.5s;
         }
 
         #pillars-10{
@@ -934,7 +937,61 @@ $label-color: #7df9ff;
             animation-duration: 10s;
             animation-name: pillarsDown;
             animation-iteration-count: infinite;
+            animation-delay: 0s;
+        }
+
+        #pillars-11{
+            grid-column: 5 / span 2;
+            grid-row: 4 / span 1;
+            animation-duration: 10s;
+            animation-name: pillarsDown;
+            animation-iteration-count: infinite;
             animation-delay: 1s;
+        }
+
+        #pillars-12{
+            grid-column: 5 / span 1;
+            grid-row: 6 / span 1;
+            animation-duration: 10s;
+            animation-name: pillarsUp;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+        }
+
+        #pillars-13{
+            grid-column: 8 / span 2;
+            grid-row: 8 / span 2;
+            animation-duration: 10s;
+            animation-name: pillarsUp;
+            animation-iteration-count: infinite;
+            animation-delay: 1.5s;
+        }
+
+        #pillars-14{
+            grid-column: 9 / span 1;
+            grid-row: 11 / span 1;
+            animation-duration: 10s;
+            animation-name: pillarsUp;
+            animation-iteration-count: infinite;
+            animation-delay: 1.5s;
+        }
+
+        #pillars-15{
+            grid-column: 12 / span 1;
+            grid-row: 2 / span 1;
+            animation-duration: 10s;
+            animation-name: pillarsDown;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+        }
+
+        #pillars-16{
+            grid-column: 17 / span 1;
+            grid-row: 7 / span 1;
+            animation-duration: 10s;
+            animation-name: pillarsDown;
+            animation-iteration-count: infinite;
+            animation-delay: 3s;
         }
 
         #col4{
@@ -1193,7 +1250,7 @@ $label-color: #7df9ff;
             height: 767px;
             background-color: #fff;
             border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.12), 0 1px 2px rgba(255, 255, 255, 0.856);
+            box-shadow: 0 4px 7px rgba(0,0,0,0.12), 0 3px 4px rgba(0, 0, 0, 0.856);
             
             .project-thumbnail{
                 height: 100%;
