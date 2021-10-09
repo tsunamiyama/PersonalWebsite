@@ -1955,7 +1955,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    color: #0AFFF7;
+    color: #7df9ff;
     font-weight: 400;
     font-size: 28px;
     letter-spacing: 5px;
@@ -1991,7 +1991,7 @@
     height: 220px;
     width: 200px;
     border-radius: 10px;
-    background-color: #f5fffa;
+    background-color: #fff;
     overflow: hidden;
     margin: 1em 1em 1em 1em;
     -webkit-box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.5);
@@ -2020,9 +2020,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    color: #fff;
+    color: #000;
     font-family: 'Poppins', arial;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
   }
   .contact-form #contactMe {
     display: -webkit-box;
