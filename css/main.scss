@@ -994,6 +994,24 @@ $label-color: #7df9ff;
             animation-delay: 3s;
         }
 
+        #pillars-17{
+            grid-column: 24 / span 2;
+            grid-row: 9 / span 1;
+            animation-duration: 10s;
+            animation-name: pillarsUp;
+            animation-iteration-count: infinite;
+            animation-delay: 4.5s;
+        }
+
+        #pillars-18{
+            grid-column: 24 / span 1;
+            grid-row: 3 / span 1;
+            animation-duration: 10s;
+            animation-name: pillarsUp;
+            animation-iteration-count: infinite;
+            animation-delay: 4.5s;
+        }
+
         #col4{
             grid-column: 7 / 8;
             grid-row: 1 / span 13;
@@ -1163,7 +1181,11 @@ $label-color: #7df9ff;
         font-family: 'Poppins', arial;
 
         .fp-group1{
-            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100%;
         
             #featured-project-label{
                 display: flex;
@@ -1192,6 +1214,18 @@ $label-color: #7df9ff;
                 font-size: 24px;
                 font-weight: 300;
                 color: #000;
+            }
+
+            #fp-button{
+                padding: 10px 30px;
+                background-color: #fff;
+                border: none;
+                outline: none;
+                border-radius: 3px;
+                font-weight: 500;
+                font-size: 20px;
+                width: 200px;
+                height: 50px;
             }
         }
 
@@ -1309,6 +1343,14 @@ $label-color: #7df9ff;
                 font-size: 18px;
             }
 
+            #mjc-caption{
+                bottom: -43.5%;
+            }
+
+            #wsc-caption{
+                bottom: -40%;
+            }
+
             .project-desc{
                 padding: 0px 20px 0px 20px;
             }
@@ -1338,6 +1380,14 @@ $label-color: #7df9ff;
             }
             
             figcaption {
+                bottom: 0;
+            }
+
+            #mjc-caption{
+                bottom: 0;
+            }
+
+            #wsc-caption{
                 bottom: 0;
             }
         }

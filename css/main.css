@@ -1359,6 +1359,38 @@
     -webkit-animation-delay: 3s;
             animation-delay: 3s;
   }
+  #homepage #pillars-17 {
+    -ms-grid-column: 24;
+    -ms-grid-column-span: 2;
+    grid-column: 24 / span 2;
+    -ms-grid-row: 9;
+    -ms-grid-row-span: 1;
+    grid-row: 9 / span 1;
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+    -webkit-animation-name: pillarsUp;
+            animation-name: pillarsUp;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-delay: 4.5s;
+            animation-delay: 4.5s;
+  }
+  #homepage #pillars-18 {
+    -ms-grid-column: 24;
+    -ms-grid-column-span: 1;
+    grid-column: 24 / span 1;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3 / span 1;
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+    -webkit-animation-name: pillarsUp;
+            animation-name: pillarsUp;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-delay: 4.5s;
+            animation-delay: 4.5s;
+  }
   #homepage #col4 {
     -ms-grid-column: 7;
     -ms-grid-column-span: 1;
@@ -1663,7 +1695,20 @@
     font-family: 'Poppins', arial;
   }
   .featured-project .fp-group1 {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
   }
   .featured-project .fp-group1 #featured-project-label {
     display: -webkit-box;
@@ -1702,6 +1747,17 @@
     font-size: 24px;
     font-weight: 300;
     color: #000;
+  }
+  .featured-project .fp-group1 #fp-button {
+    padding: 10px 30px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
   }
   .featured-project #pnc-pic {
     display: none;
@@ -1846,6 +1902,12 @@
     transition: 0.25s;
     font-size: 18px;
   }
+  .projects .project-tiles #mjc-caption {
+    bottom: -43.5%;
+  }
+  .projects .project-tiles #wsc-caption {
+    bottom: -40%;
+  }
   .projects .project-tiles .project-desc {
     padding: 0px 20px 0px 20px;
   }
@@ -1870,6 +1932,12 @@
             transform: scale(1.25);
   }
   .projects .project-tiles:hover figcaption {
+    bottom: 0;
+  }
+  .projects .project-tiles:hover #mjc-caption {
+    bottom: 0;
+  }
+  .projects .project-tiles:hover #wsc-caption {
     bottom: 0;
   }
   .skills {
